@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "FS8mcgDKbUx5vDY6RycxuGLbfghoCsuDZLI8FX+9lBg=",
+  "Source": "HttpClientDemo.API",
+  "BasePath": "_content/HttpClientDemo.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

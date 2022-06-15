@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "HttpClientDemo.Consola/1.0.0": {
+        "dependencies": {
+          "Comun": "1.0.0"
+        },
+        "runtime": {
+          "HttpClientDemo.Consola.dll": {}
+        }
+      },
+      "Comun/1.0.0": {
+        "runtime": {
+          "Comun.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HttpClientDemo.Consola/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Comun/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
