@@ -17,8 +17,9 @@ using System.Text.Json;
 
 var serviceCollection = new ServiceCollection();
 Configure(serviceCollection);
-var services = serviceCollection.BuildServiceProvider();
-var httpclientFactory = services.GetService<IHttpClientFactory>();
+var httpclientFactory = serviceCollection
+                        .BuildServiceProvider()
+                        .GetService<IHttpClientFactory>();
 
 
 void Configure(ServiceCollection service)
