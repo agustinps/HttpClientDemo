@@ -31,7 +31,7 @@ void Configure(ServiceCollection service)
     service.AddHttpClient("weatherForeCast", opciones =>
     {
         opciones.BaseAddress = new Uri("https://localhost:7192/WeatherForecast");
-        opciones.DefaultRequestHeaders.Add("cantidadelementos", "25");
+        opciones.DefaultRequestHeaders.Add("cantidadElementos", "25");
     });
 }
 
@@ -40,7 +40,8 @@ var responseMessage3 = await hHttpClientPersona.GetAsync("");
 responseMessage3.EnsureSuccessStatusCode();
 
 
-ahora hacer todas las llamadas con esta configuracion
+primero hacer la configuracion para utilizar interfaz siguiendo el vídeo y despues 
+hacer todas las llamadas con esta configuracion
 
     crear dos controladores, uno para productos y otro para pedidos
     y hacer unas llamadas a uno con una url y a otro con otra url.....
