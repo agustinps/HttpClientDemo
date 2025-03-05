@@ -40,17 +40,6 @@ var responseMessage3 = await hHttpClientPersona.GetAsync("");
 responseMessage3.EnsureSuccessStatusCode();
 
 
-primero hacer la configuracion para utilizar interfaz siguiendo el vídeo y despues 
-hacer todas las llamadas con esta configuracion
-
-    crear dos controladores, uno para productos y otro para pedidos
-    y hacer unas llamadas a uno con una url y a otro con otra url.....
-
-
-
-
-
-
 //var httpClient = new ServiceCollection()
 //                .AddHttpClient("personas", opciones =>
 //                {
@@ -198,7 +187,6 @@ async Task CrearUsuario()
 
 //PUT (Modifica una entidad completa, es decir, necesitamos enviar toda la entidad para hacer un put puesto que los valore sno enviados serán modificados a null
 //DELETE
-//PATCH ?????
 using (var client = new HttpClient())
 {
     url = "https://localhost:7192";
